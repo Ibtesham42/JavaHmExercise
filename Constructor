@@ -1,0 +1,21 @@
+public class Employee {
+    int em_id;
+    String name;
+    public Employee(String name,int em_id)
+    {
+        this.name=name;
+        this.em_id=em_id;
+
+    }
+
+    public static void main(String[] args) {
+        Employee e1 = new Employee("Shan",809);
+        Employee e2 = new Employee("Rohan",807);
+
+
+
+
+        System.out.println("Employee1 "+e1.name+" "+e1.em_id);
+        System.out.println("Employee1 "+e2.name+" "+e2.em_id);
+    }
+}
